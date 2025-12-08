@@ -36,7 +36,7 @@ export const SiteHeader = () => {
 									Projects
 								</Link>
 							</Button>
-							<Button
+							{/*<Button
 								asChild
 								size="sm"
 								variant="ghost"
@@ -48,7 +48,7 @@ export const SiteHeader = () => {
 								<Link href="/changelog" className="!text-sm">
 									Changelog
 								</Link>
-							</Button>
+							</Button>*/}
 						</div>
 					</div>
 					<div className="flex items-center">

@@ -3,7 +3,7 @@ export const dynamic = "force-static";
 export default async function sitemap() {
 	const routes = [
 		"",
-		"/changelog",
+		// "/changelog",
 		// "/notes",
 		"/projects",
 		// "/stack",
