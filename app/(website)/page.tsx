@@ -47,7 +47,7 @@ export default function Readme() {
 				</h1>
 				<div className="pro text-muted-foreground text-balance ps-1">
 					<p className="mt-6">
-						Hi <span className="text-xl">👋🏻</span>, I&apos;m currently working
+						Hi, I&apos;m currently working
 						at{" "}
 						<Link
 							href="https://w3sols.com"
@@ -61,8 +61,7 @@ export default function Readme() {
 					</p>
 					<p>
 						At W3sols, my responsibility is to oversee the development and
-						deployment of software solutions that are not only efficient and
-						effective but also customized to meet our clients&apos; specific
+						deployment of software solutions to meet our clients&apos; specific
 						business requirements.
 					</p>
 				</div>
