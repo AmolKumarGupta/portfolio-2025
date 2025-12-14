@@ -47,8 +47,7 @@ export default function Readme() {
 				</h1>
 				<div className="pro text-muted-foreground text-balance ps-1">
 					<p className="mt-6">
-						Hi, I&apos;m currently working
-						at{" "}
+						Hi, I&apos;m currently working at{" "}
 						<Link
 							href="https://w3sols.com"
 							target="_blank"
