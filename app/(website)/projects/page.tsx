@@ -28,6 +28,7 @@ export default function Home() {
 					label: "Forks",
 					value: repo.forkCount,
 				},
+				...(project?.stats ?? []),
 			];
 		}
 	});
@@ -67,7 +68,7 @@ export default function Home() {
 							</p>
 							<div className=" flex flex-col sm:flex-row gap-4 sm:gap-0 items-start sm:items-center justify-between sm:h-14">
 								<div className="flex gap-4">
-									{project.metrics.map((metric, index) => (
+									{project.metrics?.map((metric, index) => (
 										<div
 											key={`metric-${index}`}
 											className="flex items-center py-1.5 gap-3"

@@ -8,6 +8,7 @@ import { GitHubIcon, XIcon } from "@/components/blocks/social-icons";
 import { SocialLink } from "@/components/blocks/social-link";
 import { careerItems } from "@/lib/utils";
 import { getGithubInfo } from "@/server/thirdparty";
+import { Video } from "lucide-react";
 import type { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
@@ -83,7 +84,7 @@ export default function Readme() {
 				<div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
 					<ProjectCard
 						title="Websnapper"
-						icon={<GiderimLogo className="size-10" />}
+						icon={<Video fill="black" className="size-10" />}
 						description="Record videos at ease."
 						link="https://github.com/amolkumargupta/websnapper"
 					/>
