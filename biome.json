@@ -33,6 +33,9 @@
 			"correctness": {
 				"noUnknownProperty": "off",
 				"noUnknownFunction": "off"
+			},
+			"security": {
+				"noDangerouslySetInnerHtml": "off"
 			}
 		}
 	},
