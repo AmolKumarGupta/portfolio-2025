@@ -17,8 +17,14 @@ export const metadata: Metadata = {
 	title: "Readme",
 };
 
-const currentYear = new Date().getFullYear();
-const lastPosition = currentYear - careerItems[careerItems.length - 1].from;
+/**
+ * Joining Date was in middle of the years,
+ * so to handle it (approx.), we need to decrease a year for first half of the year
+ */
+const exactDate = new Date();
+const currentYear =
+	new Date().getFullYear() - (exactDate.getMonth() <= 6 ? 1 : 0);
+const lastPosition = currentYear - careerItems[careerItems.length - 1].from - 1;
 
 export default function Readme() {
 	const githubResponse = getGithubInfo();
