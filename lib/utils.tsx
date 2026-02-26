@@ -45,7 +45,7 @@ export const navItems = [
 
 export const careerItems = [
 	{
-		from: 2021,
+		from: 2022,
 		to: null,
 		title: "Full Stack Developer",
 		company: { name: "W3sols", url: "https://w3sols.com" },
@@ -61,7 +61,7 @@ export const careerItems = [
 					"I was responsible for the development of custom UI in filament, maintaining static builder in Nextjs, notification via pusher and optimization.",
 			},
 			{
-				from: 2021,
+				from: 2022,
 				to: 2024,
 				title: "Laravel Developer",
 				company: { name: "W3sols", url: "https://w3sols.com" },
